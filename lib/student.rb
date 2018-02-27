@@ -4,9 +4,11 @@
 class Student
 
     attr_accessor :hello, :raise_hand
+
     def hello
-          puts "Hey there! I'm so excited to learn stuff."
         binding.pry
+          "Hey there! I'm so excited to learn stuff."
+
     end
 
     def raise_hand
